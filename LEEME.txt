@@ -1,0 +1,32 @@
+FRAG//ZONE — PORTAL DE JUEGOS
+================================
+
+CONTENIDO
+- index.html: portada central con buscador, filtros y categorías.
+- games/shadow-run.html: Shadow Run.
+- games/night-shift.html: experiencia Night Shift.
+- games/neon-dodge.html: juego arcade original de esquivar obstáculos.
+- games/color-grid.html: juego de reflejos/puzle original.
+- games/the-assassin.html: versión previa de The Assassin.
+- games/shooter-central.html: página temática Shooter Central.
+
+PUBLICAR EN GITHUB PAGES
+1. Descarga y descomprime frag_zone_portal.zip.
+2. Entra en el repositorio de GitHub que publica FRAG//ZONE.
+3. Sube TODO el contenido de la carpeta frag_zone_portal a la raíz del repositorio.
+   Importante: index.html debe quedar en la raíz, no dentro de una subcarpeta.
+4. Si GitHub pregunta, confirma que quieres reemplazar el index.html anterior.
+5. Haz commit de los cambios en la rama main.
+6. Espera unos minutos y abre la URL de GitHub Pages. Si ves la versión anterior,
+   recarga con Ctrl+F5.
+
+PARA AÑADIR JUEGOS
+1. Copia el archivo HTML del juego en la carpeta games/.
+2. Añade una tarjeta dentro del elemento <div class="grid" id="grid"> de index.html.
+3. Usa un enlace relativo, por ejemplo href="games/mi-juego.html".
+4. Asegúrate de que el juego funciona sin depender de archivos locales de tu ordenador.
+
+NOTAS
+- La web es estática: funciona en GitHub Pages y no necesita servidor ni base de datos.
+- Los favoritos, cuentas y tablas de clasificación online aún no están implementados.
+- No está afiliada a Poki; el diseño y los juegos son propios/de esta colección.
